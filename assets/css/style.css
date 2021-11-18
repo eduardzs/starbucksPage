@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body {
+    height: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+.logo {
+    width: 50%;
+}
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+.menu a {
+    color: #222222;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+.extras {
+    position: absolute;
+    bottom: -430px;
+    right: -430px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #2A7242;
+}
+.social {
+    position: absolute;
+    right: 450px;
+    top: 340px;
+}
+.social img {
+    display: block;
+    width: 20px;
+    margin: 40px 0;
+}
+.sobre {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.txt-center {
+    margin: 40px;
+}
+.txt-paragraph {
+    margin-top: 20px;
+    font-size: 14px
+}
+.extras2 {
+    margin-top: 20px;
+    padding: 10px;
+    width: 120px;
+    display: inline-block;
+    background-color: #2A7242;
+    font-size: 14px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+.learn {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.imagens {
+    margin-top: 30px;
+    margin-left: 660px;
+}
+.imagens img {
+    margin: 10px;
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
